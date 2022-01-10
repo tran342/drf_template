@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "pipenv"
-      directory: "/"
-      schedule:
-        interval: "daily"
+    directory: "/"
+    schedule:
+      interval: "daily"
