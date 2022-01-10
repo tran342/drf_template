@@ -20,13 +20,9 @@ pytest = "*"
 pytest-django = "*"
 django-redis = "==5.2.0"
 redis = "==4.1"
-pymysql = "==1.0.2"
-mysqlclient = "*"
 django-environ = "*"
-django-crontab = "*"
 django-apscheduler = "*"
 drf-spectacular = "==0.21.1"
-mssql-django = "*"
 
 [dev-packages]
 
