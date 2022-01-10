@@ -1,0 +1,15 @@
+{
+    "apps" : [{
+        "name"       : "api-app",
+        "script"     : "./start.sh",
+        "instances"  : 1,
+        "exec_mode"  : "fork_mode",
+        "exec_interpreter": "bash"
+    }, {
+        "name"       : "scheduler-app",
+        "script"     : "./start_scheduler.sh",
+        "instances"  : 1,
+        "exec_mode"  : "fork_mode",
+        "exec_interpreter": "bash"
+    }]
+}

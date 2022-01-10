@@ -1,0 +1,10 @@
+services:
+  app-job:
+    image: tran342/app_sample:latest
+    volumes:
+      - /home/deploy/lunex-apps/app_sample/static:/app/src/static
+      - /home/deploy/lunex-logs/app_sample:/app/logs
+    env_file:
+      - app_sample.env
+    networks:
+      - app_network
